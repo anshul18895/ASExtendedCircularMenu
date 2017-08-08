@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1228791A7367A318E2917373 /* ASExtendedCircularMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ASExtendedCircularMenu.podspec; path = ../ASExtendedCircularMenu.podspec; sourceTree = "<group>"; };
-		2D32EB3940FA69CE53351C37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2E89E4494FCF8295637E3448 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1228791A7367A318E2917373 /* ASExtendedCircularMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASExtendedCircularMenu.podspec; path = ../ASExtendedCircularMenu.podspec; sourceTree = "<group>"; };
+		2D32EB3940FA69CE53351C37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2E89E4494FCF8295637E3448 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		33936C53ACA46F21153C2E4D /* Pods-ASExtendedCircularMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASExtendedCircularMenu_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASExtendedCircularMenu_Example/Pods-ASExtendedCircularMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4034B41FC002C55E68536302 /* Pods-ASExtendedCircularMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASExtendedCircularMenu_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASExtendedCircularMenu_Tests/Pods-ASExtendedCircularMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ASExtendedCircularMenu_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASExtendedCircularMenu_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -496,6 +496,7 @@
 			baseConfigurationReference = 33936C53ACA46F21153C2E4D /* Pods-ASExtendedCircularMenu_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ASExtendedCircularMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +511,7 @@
 			baseConfigurationReference = FCF0205938DAA49BF1FAA3E8 /* Pods-ASExtendedCircularMenu_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ASExtendedCircularMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
