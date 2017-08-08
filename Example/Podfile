@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ASExtendedCircularMenu_Example' do
+  pod 'ASExtendedCircularMenu', :path => '../'
+
+  target 'ASExtendedCircularMenu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
