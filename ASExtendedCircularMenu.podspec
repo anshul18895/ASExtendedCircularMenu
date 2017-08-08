@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ASExtendedCircularMenu'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'ASExtendedCircularMenu is a librery for circular menu control with Dynamic Draggble option.'
 
 # This description is used to generate tags and improve search results.
