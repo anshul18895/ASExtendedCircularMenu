@@ -1,0 +1,6 @@
+framework module Pods_ASExtendedCircularMenu_Tests {
+  umbrella header "Pods-ASExtendedCircularMenu_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

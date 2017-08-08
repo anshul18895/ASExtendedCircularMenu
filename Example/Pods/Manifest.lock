@@ -1,0 +1,16 @@
+PODS:
+  - ASExtendedCircularMenu (0.1.0)
+
+DEPENDENCIES:
+  - ASExtendedCircularMenu (from `../`)
+
+EXTERNAL SOURCES:
+  ASExtendedCircularMenu:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ASExtendedCircularMenu: 69d09f73198092b3a71bef54b802db91ad998508
+
+PODFILE CHECKSUM: 7a1d99ac2214a7e51e7507ef8d3621584944fcc4
+
+COCOAPODS: 1.2.1
