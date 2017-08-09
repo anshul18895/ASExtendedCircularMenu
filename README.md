@@ -1,5 +1,5 @@
 <p align="center">
-# ASExtendedCircularMenu
+<img src="https://github.com/anshul18895/ASExtendedCircularMenu/blob/master/Screen%20Shots/logo.png?raw=true"  style="width: 400px;" width="400" />
 </p>
 
 ## Requirements
