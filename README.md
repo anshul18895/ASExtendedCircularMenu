@@ -39,7 +39,7 @@ pod ‘ASExtendedCircularMenu’, :git => 'https://github.com/anshul18895/ASExte
 
 
 ### Steps:
-#### 1. Create button in inteface builder. And give it class and module ***'ASExtendedCircularMenu'***. And create refrencing outlet in viewController class.<br />
+#### 1. Create button in inteface builder. And give it class and module ***`ASExtendedCircularMenu`*** . And create refrencing outlet in viewController class.
 <img src="https://github.com/anshul18895/ASExtendedCircularMenu/blob/master/Screen%20Shots/interfaceBuilder.png?raw=true" style="width: 250px; border: 1px 1px 0 0 #888995 solid;" width="250"></img><br />
 
 #### 2. Extend viewController class with ***'ASCircularButtonDelegate'***. and configure button in ***'viewDidLoad()'***.
