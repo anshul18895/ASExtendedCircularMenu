@@ -10,7 +10,7 @@ Expand circular menu by giving only instance of the menu buttons. <br />
 <img src="https://github.com/anshul18895/ASExtendedCircularMenu/blob/master/Screen%20Shots/ScreenShot%202.png?raw=true" style="width: 250px; border: 1px 1px 0 0 #888995 solid;" width="250"></img>
 
 ## Features
-- [x] Static Initialization (Static radius static position) "Not Draggable"
+- [x] Static Initialization (Static radius and static position) "Not Draggable"
 - [x] Dynamic Initialization (Automatic find dynamic radius and dynamic positions) "Not Draggable"
 - [x] Draggable Initialization (Automatic find dynamic radius and dynamic positions) "Draggable + Dynamic"
 
@@ -39,7 +39,7 @@ For adding or removing animation of button.
 ##### 5. ***`menuButtonSize`*** 
 Size of menu button (options: small,medium,large)
 ##### 6. ***`isDraggable`*** 
-Making Button Draggable.
+For making Button Draggable.
 
 
 
@@ -62,7 +62,7 @@ There are three ways to configure button. 1) static 2) Dynamic 3) Draggable
 ```swift
 configureCircularMenuButton(button: colourPickerButton, numberOfMenuItems: 5, menuRedius: 70, postion: .bottomLeft)
 ```
-##### Dynamic Initiazation
+##### Dynamic Initialization
 
 ```swift
 configureDynamicCircularMenuButton(button: colourPickerButton, numberOfMenuItems: 5)
@@ -72,7 +72,7 @@ configureDynamicCircularMenuButton(button: colourPickerButton, numberOfMenuItems
 configureDraggebleCircularMenuButton(button: colourPickerButton, numberOfMenuItems: 8, menuRedius: 70, postion: .center)
 ```
 #### 3. Call following two protocol methods and Return button in ***`buttonForIndexAt()`*** for index in menu and set target for menu button using ***`didClickOnCircularMenuButton()`*** .
-##### Calling ***`buttonForIndexAt()`*** method for returning cell instance for index of menu.
+##### Calling ***`buttonForIndexAt()`*** method for returning button instance for index of menu.
 ```swift
 func buttonForIndexAt(_ menuButton: ASCircularMenuButton, indexForButton: Int) -> UIButton {
         let button: UIButton = UIButton()
