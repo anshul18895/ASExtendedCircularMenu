@@ -1,16 +1,16 @@
+<p align="center">
 # ASExtendedCircularMenu
-
-[![CI Status](http://img.shields.io/travis/anshul18895/ASExtendedCircularMenu.svg?style=flat)](https://travis-ci.org/anshul18895/ASExtendedCircularMenu)
-[![Version](https://img.shields.io/cocoapods/v/ASExtendedCircularMenu.svg?style=flat)](http://cocoapods.org/pods/ASExtendedCircularMenu)
-[![License](https://img.shields.io/cocoapods/l/ASExtendedCircularMenu.svg?style=flat)](http://cocoapods.org/pods/ASExtendedCircularMenu)
-[![Platform](https://img.shields.io/cocoapods/p/ASExtendedCircularMenu.svg?style=flat)](http://cocoapods.org/pods/ASExtendedCircularMenu)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+</p>
 
 ## Requirements
 
+Expand circular menu by giving only instance of the menu buttons. <br />
+<br/>
+<img src="https://github.com/anshul18895/ASExtendedCircularMenu/blob/master/Screen%20Shots/ScreenShot%201.png?raw=true" style="width: 250px; border: 1px 1px 0 0 #888995 solid;" width="250"></img>
+<img src="https://github.com/anshul18895/ASExtendedCircularMenu/blob/master/Screen%20Shots/ScreenShot%202.png?raw=true" style="width: 250px; border: 1px 1px 0 0 #888995 solid;" width="250"></img>
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 ## Installation
 
 ASExtendedCircularMenu is available through [CocoaPods](http://cocoapods.org). To install
