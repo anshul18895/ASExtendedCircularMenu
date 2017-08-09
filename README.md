@@ -57,7 +57,7 @@ configureDynamicCircularMenuButton(button: colourPickerButton, numberOfMenuItems
 ```swift
 configureDraggebleCircularMenuButton(button: colourPickerButton, numberOfMenuItems: 8, menuRedius: 70, postion: .center)
 ```
-#### 3. Call following two protocoal methods and Return button in ***`buttonForIndexAt()`*** for index in menu and set target for menu button using ***'a'*** .
+#### 3. Call following two protocoal methods and Return button in ***`buttonForIndexAt()`*** for index in menu and set target for menu button using ***'didClickOnCircularMenuButton()'*** .
 ##### Calling ***'buttonForIndexAt()'*** method for returning cell instance for index of menu.
 ```swift
 func buttonForIndexAt(_ menuButton: ASCircularMenuButton, indexForButton: Int) -> UIButton {
@@ -72,7 +72,7 @@ func buttonForIndexAt(_ menuButton: ASCircularMenuButton, indexForButton: Int) -
     }
 ```
 
-##### Calling ***''*** method for setting method call on click (Setting target).
+##### Calling ***'didClickOnCircularMenuButton()'*** method for setting method call on click (Setting target).
 ```swift
   func didClickOnCircularMenuButton(_ menuButton: ASCircularMenuButton, indexForButton: Int, button: UIButton) {
         if menuButton == colourPickerButton{
