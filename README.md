@@ -1,5 +1,6 @@
+<p align="center">
 # ASExtendedCircularMenu
-
+</p>
 
 ## Requirements
 
