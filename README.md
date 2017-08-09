@@ -71,7 +71,7 @@ func buttonForIndexAt(_ menuButton: ASCircularMenuButton, indexForButton: Int) -
         return button
     }
 ```
-<br />
+
 ##### Calling ***''*** method for setting method call on click (Setting target).
 ```swift
   func didClickOnCircularMenuButton(_ menuButton: ASCircularMenuButton, indexForButton: Int, button: UIButton) {
