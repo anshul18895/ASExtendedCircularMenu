@@ -204,6 +204,10 @@ public class ASCircularMenuButton: UIButton{
     // This function will called when menu button is clicked an create/remove all child buttons
     public func onClickMenuButton(){
         //If menu is not open
+        if isDreggable{
+            self.circularButtonPositon = self.setDynamicButtonPosition()
+            self.customRadiusForButton()
+        }
         if !isSelected{
             //will get all origins
             let origines = setupCGPoints()
