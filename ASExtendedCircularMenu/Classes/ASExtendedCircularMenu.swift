@@ -161,7 +161,7 @@ public class ASCircularMenuButton: UIButton{
     }
     
     //If button is draggble than this is the target method will be called.
-    func drag(control: UIControl, event: UIEvent) {
+    @objc func drag(control: UIControl, event: UIEvent) {
         //Clearing constraints of menuButton reguarding it's parent view.
         for objectConstraint in parentViewOfMenuButton.constraints{
             if objectConstraint.firstItem as! NSObject == self{
@@ -202,7 +202,7 @@ public class ASCircularMenuButton: UIButton{
     }
     
     // This function will called when menu button is clicked an create/remove all child buttons
-    public func onClickMenuButton(){
+    @objc public func onClickMenuButton(){
         //If menu is not open
         if isDreggable{
             self.circularButtonPositon = self.setDynamicButtonPosition()
@@ -280,7 +280,7 @@ public class ASCircularMenuButton: UIButton{
     }
     
     //This is method for giving buttons to their Actions
-    public func onClickMenuItemButton(sender: UIButton){
+    @objc public func onClickMenuItemButton(sender: UIButton){
         delegate?.didClickOnCircularMenuButton(self , indexForButton: sender.tag , button: sender)
         onClickMenuButton()
     }
